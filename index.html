@@ -6,40 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/styles.css">
+    
+
+    <script src="assets/script.js"></script>
 </head>
 
 <body>
+
+    <!-- START HEADER -->
     <header id="header">
 
-        <div class="flex">
+        <div class="divFlex">
+
             <div id="title">
                 <h1>Angel Mondragon</h1>
             </div>
             
-
-
             
             <nav id="navigationBar">
                 <ul>
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Work</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Resume</a></li>
+                    <li>
+                        <a href="">About Me
+                             <div class="underline"></div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">Work
+                            <div class="underline"></div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">Contact Me
+                            <div class="underline"></div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">Resume
+                            <div class="underline"></div>
+                        </a>
+                    </li>
                 </ul>
             </nav>
 
-            <div id="banner">
-                <h2>Banner</h2>
-            </div>
         </div>
     </header>
+    <!-- END HEADER -->
+
+    <!--BACKGROUND FOR BANNER-->
+    <div id="banner">
+        <h2>PORTFOLIO</h2>
+    </div>
 
 
+
+    <!--START MAIN CONTENT-->
     <main id="main">
 
-
+        <!--SECTION FOR THE CONTENT ABOUT ME-->
         <section class="sections" id="aboutMe">
 
             <div class="sectionHeader">
@@ -56,6 +84,7 @@
         </section>
 
 
+        <!--SECTION FOR MY WORK CONTENT -->
         <section class="sections" id="myWork">
 
                 <div class="sectionHeader">
@@ -63,7 +92,7 @@
                 </div>
 
 
-                <div id="proyectsContainer">
+                <article id="proyectsContainer">
 
                     <div class="allProyects" id="mainProyect">
 
@@ -74,25 +103,31 @@
 
                     </div>
 
-                </div>
-
+                </article>
     
         </section>
 
 
+        <section class="sections" id="contact">
+
+            <div>
+                <h3 class="sectionHeader">Contact Me</h3>
+            </div>
+
+            <article>
+                <a href="">Number</a>
+                <a href="">E-mail</a>
+                <a href="">Github</a>
+            </article>
+        
+        </section>
 
     </main>
+    <!--END MAIN CONTENT-->
+
 
     <footer>
-        <div>
-            <h3 class="sectionHeader">Contact Me</h3>
-        </div>
 
-        <div>
-            <a href="">Number</a>
-            <a href="">E-mail</a>
-            <a href="">Github</a>
-        </div>
         
     </footer>
 </body>

@@ -1,0 +1,133 @@
+
+/* MY VARIABLES*/
+:root{
+    --color-header-background: #31343D ;
+    --color-light-Blue-Green: #93CDCE;
+    --color-blue-dark: #445775;
+    --background-content: #EDEDF5;
+}
+
+/****************************************************************************/
+
+/* GENERAL HEADER STYLES*/
+header{
+    width: 100%;
+    background-color: var(--color-header-background);
+}
+
+
+/* DIV. CONTAINER FOR H1 AND NAVIGATION BAR. */
+.divFlex{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 10px 0px;
+    border-bottom: 2px solid var(--color-light-Blue-Green);
+}
+
+/* CONTAINER FOR H1*/
+#title{
+    flex: 0 0 60%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px 0px;
+}
+
+/* H1 */
+#title h1 {
+    flex: 0 0 36%;
+    background-color: var(--color-light-Blue-Green);
+    font-size: 39px;
+    padding: 21px;
+    text-indent: 7%;
+    color: var(--color-header-background);
+    border-radius: 30px 0px 30px 0px;
+  }
+
+
+/* START NAVIGATION MENU STYLES */
+#navigationBar{
+    flex: 0 0 36%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+#navigationBar ul{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+#navigationBar li{
+    margin: 0px 10px;
+}
+
+/* LINKS FOR NAV MENU*/
+#navigationBar a{
+    font-size: 22px;
+    color: var(--color-light-Blue-Green);
+    text-decoration: none;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px;
+    letter-spacing: 1px;
+}
+
+.underline{
+    background-color: var(--color-light-Blue-Green);
+    width: 102%;
+    height: 4px;
+    margin: 0 auto;
+}
+
+
+/* TRANSITIONS FOR NAVIGATION MENU*/
+
+#navigationBar li:hover a{
+    color: white;
+}
+
+#navigationBar li:hover .underline{
+    background-color: white;
+}
+
+ /* END NAVIGATION MENU STYLES */
+
+/***************************************************************************/
+
+ /* BANNER STYLES*/
+
+ #banner{
+    width: 100%;
+    height: 220px;
+    background-image: url(images/banner2.jpg);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    padding: 75px 0px;
+    padding-right: 90px;
+ }
+
+ #banner h2{
+    flex: 0 0 20%;
+    color: var(--color-header-background);
+    padding: 20px;;
+    background-color: var(--color-light-Blue-Green);
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px 0px 20px 0px;
+ }
+
+ /******************************************************************************/
+
+/* START MAIN SECTION STYLES*/
+
+main{
+    background-color: var(--background-content);
+}
+
+
+/* END MAIN SECTION STYLES*/
