@@ -136,7 +136,6 @@ main{
 /* STYLES FOR ALL SECTIONS*/
 .sections{
     flex: 0 0 90%;
-    border: 1px solid black;
     margin: 40px 0px ;
     display: flex;
     flex-flow: row wrap;
@@ -146,12 +145,12 @@ main{
 
 /* STYLES FOR ARTICLES*/
 .article{
-    flex: 0 0 85%;
+    flex: 0 0 80%;
     padding: 0px 45px;
 }
 
 .sectionHeader{
-    flex: 0 0 15%;
+    flex: 0 0 20%;
     padding-right: 18px;
     border-right: 5px solid var(--color-blue-dark);
 }
@@ -342,18 +341,36 @@ animation: scoreSlide 300ms linear;
 
                                 /* RESUME */
 #resume{
-    border: 1px solid red;
     display: flex;
     flex-flow: row wrap;
-
+    justify-content: flex-start;
 }
 
 #downloadResume{
-    border: 1px solid blue;
+    flex: 0 0 31.5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 #downloadResume img{
-    border: 1px solid darkgoldenrod ;
+    flex: 0 0 20%;
+    width: 155px;
+}
+
+/* INIMATION FOR RESUME IMAGE LINK*/
+
+@keyframes resume{
+    0%{
+        width: 80px ;
+    }
+    100%{
+        width:155px;
+    }
+}
+
+#downloadResume a:hover img{
+    animation: resume 500ms linear;
 }
 /******************************************************************************/
 
@@ -395,4 +412,39 @@ animation: scoreSlide 300ms linear;
     text-decoration: 3px underline var(--background-content);
     box-shadow: 4px 4px 2px var(--color-blue-dark);
 }
+
 /* END MAIN SECTION STYLES*/
+
+/*********************************************************************************/
+
+/* START FOOTER STYLES*/
+
+footer{
+    background-color: var(--color-blue-dark);
+    height: 150px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span{
+    color: white;
+    font-size: 18px;
+}
+
+footer a{
+    color: #F5440C;
+    text-decoration: none;
+    transition: all 200ms;
+}
+
+/* TRANSITION FOR LINK IN FOOTER*/
+
+footer a:hover{
+    color: #93CDCE;
+    text-decoration: 2px underline;
+}
+
+/* END FOOTER STYLES*/
+/*********************************************************************************/
