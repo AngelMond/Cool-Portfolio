@@ -208,6 +208,7 @@ main{
     padding: 60px 0px;
     opacity: .5;
     text-decoration: none;
+    transition: all 200ms;
 }
 
 /* IMAGES FOR PROYECTS*/
