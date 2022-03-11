@@ -123,7 +123,7 @@ header{
 
  /******************************************************************************/
 
-/* START MAIN SECTION STYLES*/
+                        /* START MAIN SECTION STYLES*/
 
 main{
     background-color: var(--background-content);
@@ -163,7 +163,8 @@ main{
     text-align: right;
 }
 
-/* ABOUT ME*/
+/*****************************************************************************/
+                                        /* ABOUT ME*/
 
 #description-photo{
     display: flex;
@@ -188,7 +189,9 @@ main{
     text-align: center;
 }
 
-/* MY WORK */
+/*******************************************************************************/
+
+                                     /* MY WORK */
 #proyectsContainer{
     
     display: flex;
@@ -205,6 +208,7 @@ main{
     border: 6px solid var(--color-light-Blue-Green);
     padding: 60px 0px;
     opacity: .5;
+    text-decoration: none;
 }
 
 /* IMAGES FOR PROYECTS*/
@@ -261,5 +265,46 @@ main{
     cursor: pointer;
 }
 
+/******************************************************************************/
 
+                                /* CONTACT ME */
+
+#contact{
+  border: 1px solid red;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+#contactLinks{
+    border: 1px solid blue;
+    flex: 0 0 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactLinks a{
+    flex: 0 0 20%;
+    font-size: 28px;
+    margin: 10px 5px;
+    text-align: center;
+    background-color: var(--color-light-Blue-Green);
+    border-radius: 10px 0px 10px 0px;
+    color: var(--color-header-background);
+    text-decoration: 3px underline var(--color-header-background);
+    padding: 5px 0px;
+    box-shadow: 4px 4px 2px var(--color-header-background);
+    transition: all 280ms;
+}
+
+/* TRANSITIONS FOR CONTACT LINKS*/
+
+#contactLinks a:hover{
+    color: white;
+    background-color: var(--color-header-background);
+    text-decoration: 3px underline var(--background-content);
+    box-shadow: 4px 4px 2px var(--color-blue-dark);
+}
 /* END MAIN SECTION STYLES*/
