@@ -86,11 +86,11 @@ header{
 
 /* TRANSITIONS FOR NAVIGATION MENU*/
 
-#navigationBar li:hover a{
+#navigationBar li a:hover {
     color: white;
 }
 
-#navigationBar li:hover .underline{
+#navigationBar li a:hover .underline{
     background-color: white;
 }
 
@@ -127,7 +127,89 @@ header{
 
 main{
     background-color: var(--background-content);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 40px;
+    
+}
+/* STYLES FOR ALL SECTIONS*/
+.sections{
+    flex: 0 0 90%;
+    border: 1px solid black;
+    margin: 40px 0px ;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
+
+/* STYLES FOR ARTICLES*/
+.article{
+    flex: 0 0 85%;
+    padding: 0px 45px;
+}
+
+.sectionHeader{
+    flex: 0 0 15%;
+    padding-right: 18px;
+    border-right: 5px solid var(--color-blue-dark);
+}
+
+.sectionHeader h3{
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-blue-dark);
+    text-align: right;
+}
+
+/* ABOUT ME*/
+#aboutMe p{
+    font-size: 18px;
+    color: var(--color-blue-dark);
+    letter-spacing: .5px;
+    line-height: 30px;
+}
+
+/* WORK */
+#proyectsContainer{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.allProyects{
+    flex: 0 0 48%;
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    margin: 10px;
+    border: 8px solid var(--color-light-Blue-Green);
+    padding: 60px 0px;
+}
+
+#greenday{
+    flex: 0 0 100%;
+    background-image: url(../assets/images/greenday1.jpg);
+    padding: 250px 0px;
+    margin-top: 0px;
+}
+
+#portfolio{
+    background-image: url(../assets/images/portfolio.jpg);
+    padding: 60px 0px;
+    background-position: -1088px -7px;
+    background-repeat: no-repeat;
+}
+
+#calculator{
+    background-image: url(../assets/images/calculadora.jpg);
+}
+
+#civic{
+    background-image: url(./images/civic.jpg);
+}
 
 /* END MAIN SECTION STYLES*/
