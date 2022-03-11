@@ -198,7 +198,7 @@ main{
     justify-content: center;
 }
 
-/* FLEX- BASIS FOR PROYECTS*/
+/* FLEX- BASIS FOR PROYECTS. CHANGED FLEX=BASIS FOR #GREENDAY*/
 .allProyects{
     flex: 0 0 48%;
     display: flex;
