@@ -265,19 +265,107 @@ main{
     cursor: pointer;
 }
 
+/*******************************************************************************/
+
+                                /* MY SKILLS */
+
+#mySkills{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+#imagesContainer{
+    flex: 0 0 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.skillImages{
+    flex: 0 0 80%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px 0px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.skillImages img{
+    flex: 0 0 12%;
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+.skillImages span{
+    flex: 0 0 30%;
+    padding-left: 30px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.skillImages p{
+    flex: 0 0 50%;
+    font-size: 30px;
+    display: none;
+}
+
+/* ANIMATION FOR SKILLS SCORE*/
+
+@keyframes scoreSlide{
+    0%{
+        transform: translateX(800px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
+#html5:hover .score,
+#css3:hover .score,
+#javaScript:hover .score{
+display: block;
+animation: scoreSlide 300ms linear;
+cursor: pointer;
+}
+
+#html5:focus .score,
+#css3:focus .score,
+#javaScript:focus .score{
+display: block;
+animation: scoreSlide 300ms linear;
+}
+
+/******************************************************************************/
+
+                                /* RESUME */
+#resume{
+    border: 1px solid red;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+#downloadResume{
+    border: 1px solid blue;
+}
+
+#downloadResume img{
+    border: 1px solid darkgoldenrod ;
+}
 /******************************************************************************/
 
                                 /* CONTACT ME */
 
 #contact{
-  border: 1px solid red;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
 }
 
 #contactLinks{
-    border: 1px solid blue;
     flex: 0 0 100%;
     display: flex;
     flex-flow: row wrap;
