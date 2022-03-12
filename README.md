@@ -10,7 +10,7 @@
 * I did my best using the correct semantics for the HTML
 to have a good SEO.
 
-* I add properly comments for both HTML and CSS.
+* I added properly comments for both HTML and CSS.
 
 * Clean code.
 
