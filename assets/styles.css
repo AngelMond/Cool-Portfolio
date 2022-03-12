@@ -28,7 +28,7 @@ header{
 
 /* CONTAINER FOR H1*/
 #title{
-    flex: 0 0 60%;
+    flex: 0 0 40%;
     display: flex;
     flex-flow: row wrap;
     margin: 5px 0px;
@@ -36,7 +36,7 @@ header{
 
 /* H1 */
 #title h1 {
-    flex: 0 0 36%;
+    flex: 0 0 70%;
     background-color: var(--color-light-Blue-Green);
     font-size: 39px;
     padding: 21px;
@@ -48,10 +48,10 @@ header{
 
 /* START NAVIGATION MENU STYLES */
 #navigationBar{
-    flex: 0 0 36%;
+    flex: 0 0 60%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: 30px;
 }
 
@@ -156,7 +156,7 @@ main{
 }
 
 .sectionHeader h3{
-    font-size: 60px;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--color-blue-dark);
     text-align: right;
@@ -394,7 +394,7 @@ animation: scoreSlide 300ms linear;
 #contactLinks a{
     flex: 0 0 20%;
     font-size: 28px;
-    margin: 10px 5px;
+    margin: 10px;
     text-align: center;
     background-color: var(--color-light-Blue-Green);
     border-radius: 10px 0px 10px 0px;

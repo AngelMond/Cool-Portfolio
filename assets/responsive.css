@@ -1,0 +1,447 @@
+@media screen and (max-width:1513px) {
+    .allProyects {
+    flex: 44%;
+    }
+
+    .descriptionProyect {
+    padding: 13px 42px;
+    }
+}
+
+
+@media screen and (max-width:1422px) {
+
+    /* HEADER H1 */
+    #title h1 {
+    font-size: 33px;
+    }
+
+    /*BANNER */
+    #banner h2 {
+    font-size: 25px;
+    }
+
+    /* MY SKILLS*/
+    .skillImages {
+    flex: 0 0 98%;
+    }
+
+    .skillImages p {
+    flex: 0 0 40%;
+    font-size: 25px;
+    }
+
+    .skillImages span {
+    flex: 0 0 30%;
+    padding-left: 25px;
+    font-size: 22px;
+    letter-spacing: normal;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    /*HEADER*/
+    #title h1 {
+    flex: 0 0 80%;
+    }
+    #navigationBar a {
+    font-size: 20px;
+    }
+
+    /*BANNER*/
+    #banner h2 {
+        flex: 0 0 23%;
+    }
+
+    /* H3 SECTIONS*/
+    .sectionHeader h3 {
+    font-size: 30px;
+    }
+    /* CONTACT*/
+    #contactLinks a {
+    flex: 0 0 15%;
+    }
+
+    /* RESUME*/
+    #downloadResume {
+        flex: 0 0 100%;
+        justify-content: flex-start;
+        margin-left: 10px;
+      }
+}
+
+@media screen and (max-width:1000px) {
+    /*HEADER*/
+    #title h1 {
+    font-size:28px ;
+    }
+    #navigationBar a {
+    font-size: 18px;
+    }
+
+    /* WIDTH SKILLS IMAGES*/
+    .skillImages img {
+    width: 100px;
+    }
+
+    /* RESUME IMAGE 100PX*/
+    #downloadResume img {
+    flex: 0 0 20%;
+    width: 100PX;
+    }
+
+    /* CONTACT LINKS*/
+    #contactLinks a {
+    flex: 0 0 36%;
+    }
+
+    /* DESCRIPTION PROYECTS*/
+    .descriptionProyect {
+    padding: 5px 17px;
+    }
+
+    /* GREENDAY PROYECT*/
+    #greenday {
+    flex: 0 0 100%;
+    background-image: url(../assets/images/greenday.jpg);
+    padding: 130px 0px;
+    margin-top: 0px;
+    }
+
+    /* INIMATION NONE FOR RESUME IMAGE LINK*/
+    #downloadResume a:hover img{
+        animation: none;
+    }
+
+                        /* TRANSITION FOR RESUME IMAGE LINK*/
+                        #downloadResume a:active img{
+                            width: 80px;
+                        }
+}
+
+
+@media  screen and (max-width:924px) {
+    
+    /* H1 TAG*/
+    #title h1 {
+    font-size: 22px;
+    }
+
+    /* NAVIGATION MENU LINKS*/
+    #navigationBar a {
+    font-size: 15px;
+    }
+
+    /* H3 FOR SECTIONS */
+    .sectionHeader h3 {
+    font-size: 22px;
+    }
+
+    .sectionHeader {
+    border-right: 3px solid var(--color-blue-dark);
+    }
+    
+    /* ABOUT ME*/
+    #myPhoto {
+    border-radius: 100px;
+    flex: 0 0 20%;
+    width: 130px;
+    }
+
+    #aboutMe p {
+    font-size: 16px;
+    line-height: 26px;
+    }
+
+    /* PROYECTS DESCRIPTION*/
+    
+    .descriptionProyect h5 {
+    font-size: 14px;
+    letter-spacing: 0px;
+    margin: 5px 0px;
+    }
+
+    .descriptionProyect span {
+    font-size: 9px;
+    }
+
+    /* SCORE  FONT SIZE*/
+    .skillImages p {
+    font-size: 18px;
+    }
+
+    /* CONTACT LINKS*/
+    #contactLinks a {
+    font-size: 18px;
+    }   
+}
+
+
+
+@media screen and (max-width:810px) {
+    /* H1 CONTAINER*/
+    #title {
+    flex: 0 0 90%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px 0px;
+    }
+    /* H1 */
+    #title h1 {
+    font-size: 30px;
+    }
+    /* FLEX-BASIS 100% FOR NAVIGATION BAR*/
+    #navigationBar {
+    flex: 0 0 100%;
+    }
+
+    /* FONT SIZE FOR LINKS NAVIGATION MENU*/
+    #navigationBar a {
+    font-size: 20px;
+    }
+
+    /* BANNER*/
+    #banner {
+    height: 160px;
+    }
+
+    /* PROYECTS*/
+    #greenday {
+    padding: 250px 0px;
+    }
+
+    .allProyects {
+    flex: 100%;
+    }
+
+}
+
+@media screen and (max-width: 714px ){
+
+    /*ABOUT ME*/
+    #myPhoto {
+    border-radius: 100px;
+    flex: 0 0 0%;
+    width: 120px;
+    }
+
+    /* H3 FOR HEADER SECTIONS */
+    .sectionHeader h3 {
+    font-size: 18px;
+    }
+
+    /*MY WORK*/
+    #greenday {
+    padding: 150px 0px;
+    background-repeat: no-repeat;
+    }
+
+    /* MY SKILLS IMAGES*/
+    .skillImages img {
+    width: 67px;
+    }
+
+    .skillImages span {
+    flex: 0 0 30%;
+    padding-left: 18px;
+    font-size: 16px;
+    }
+
+    .skillImages p {
+    font-size: 16px;
+    }
+
+    /* RESUME*/
+    #downloadResume img {
+    flex: 0 0 20%;
+    width: 67PX;
+    }
+
+    /* TRANSITION  RESUME IMAGE*/
+    #downloadResume a:active img{
+        width: 67px;
+    }
+
+    /*FOOTER */
+    footer span {
+    font-size: 15px;
+    }
+
+    footer {
+    height: 120px;
+    }
+
+}
+
+@media screen and (max-width: 600px){
+    #navigationBar a {
+    font-size: 16px;
+    }
+
+    /*BANNER */
+
+    #banner {
+    padding: 47px 0px;
+    }
+
+    #banner h2 {
+    font-size: 20px;
+    line-height: 26px;
+    }
+
+      /*ABOUT ME */
+      #aboutMe p {
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    }
+
+    /*GREENDAY PROYECT */
+    #greenday {
+    background-size: 327px;
+    background-position-y: -48px;
+    }
+
+    /*MY SKILLS*/
+    .skillImages img {
+    width: 50px;
+    }
+
+    .skillImages span {
+    font-size: 14px;
+    padding-left: 10px;
+    }
+
+    /*RESUME*/
+    #downloadResume img {
+    width: 50PX;
+    }
+
+    /*CONTACT */
+    #contactLinks a{
+    flex: 0 0 67%;
+    margin-top: 15px;
+    font-size: 16px;
+    }
+    
+}
+
+
+
+@media screen and (max-width:595px){
+
+    /* STYLES FOR SECTIONS AND H3*/
+    .sectionHeader {
+    flex: 0 0 100%;
+    border-right: none;
+    border-bottom: 5px solid var(--color-blue-dark);
+    margin-bottom: 34px;
+    }
+    
+    .sectionHeader h3 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    }
+
+    /* PROYECTS*/
+
+    #greenday {
+    background-size: 467px;
+    background-position-y: -217px;
+    }
+
+    .article {
+    flex: 0 0 90%;
+    padding: 0px 7px;
+    }
+
+    /* SKILL IMAGES*/
+    .skillImages img {
+    width: 80px;
+    }
+    /* TEXT NEXT IMAGES*/
+    .skillImages span {
+    font-size: 18px;
+    padding-left: 10px;
+    }
+    /* FONT SIZE FOR SCORE*/
+    .skillImages p {
+        font-size: 17px;
+      }
+
+    /*RESUME*/
+    #downloadResume {
+    flex: 0 0 100%;
+    justify-content: center;
+    margin-left: 0px;
+    }
+
+    #downloadResume img {
+    width: 80PX;
+    }
+}
+
+
+
+@media screen and (max-width:517px){
+
+    /* NAVIGATION MENU*/
+    #navigationBar {
+    justify-content: flex-start;
+    }
+
+    #navigationBar ul {
+    display: flex;
+    flex-flow: column wrap;
+    width: 56%;
+    }
+
+    #navigationBar li {
+    margin: 3px 10px;
+    padding: 7px;
+    }
+
+    #navigationBar a {
+    font-size: 24px;
+    }
+
+    .underline {
+    width: 100%;
+    height: 2px;
+    }
+}
+
+
+
+@media screen and (max-width:420px) {
+
+    /* HEADER H1*/
+    #title h1 {
+    font-size: 27px;
+    }
+
+    /* FONT-SIZE NAVIGATION MENU*/
+    #navigationBar a {
+    font-size: 22px;
+    }
+
+    /* SECTIONS*/
+    .sectionHeader h3 {
+    font-size: 35px;
+    }
+
+    .sectionHeader {
+    border-bottom: 3px solid var(--color-blue-dark);
+    }
+
+    /* CONTACT */
+    #contactLinks a {
+    flex: 0 0 77%;
+    }
+
+    /* FOOTER */
+    footer span {
+    font-size: 13px;
+    }
+}
