@@ -212,6 +212,7 @@
 
     .allProyects {
     flex: 100%;
+    opacity: 1;
     }
 
 }
