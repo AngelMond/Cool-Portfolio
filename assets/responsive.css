@@ -215,7 +215,16 @@
     opacity: 1;
     }
 
+    /* CONTACT */
+    #contactLinks a {
+    text-decoration: none;
+    }
+    #contactLinks a:hover {
+    text-decoration: none;
+    }
 }
+
+
 
 @media screen and (max-width: 714px ){
 
