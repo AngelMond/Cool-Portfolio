@@ -21,7 +21,7 @@ to have a good SEO.
 
 # SCREEN SHOTS 
 
-# LARGER SCREENS
+# LARGE SCREENS
 
 !["MY PROTFOLIO"](assets/screenshots/large1.jpg)
 !["MY PROTFOLIO"](assets/screenshots/large2.jpg)
