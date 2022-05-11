@@ -204,9 +204,9 @@ main{
 
 /* IMAGES FOR PROYECTS*/
 /* CHANGE SIZE FOR THE FIRST PROYECT TO 100% FLEX-BASIS*/
-#greenday{
+#cryptoCheck{
     flex: 0 0 100%;
-    background-image: url(../assets/images/greenday.jpg);
+    background-image: url(../assets/images/cryptoCheck.jpg);
     padding: 250px 0px;
     margin-top: 0px;
 }

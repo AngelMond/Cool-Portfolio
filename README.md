@@ -1,4 +1,4 @@
-# PORTFOLIO
+# MY PORTFOLIO
 
 # THIS WEB IS ABOUT MY PORTFOLIO TO SHOW YOU THE PROJECTS I HAVE BEEN WORKING ON WHERE YOU'LL BE ABLE TO SEE THE EXPERIENCE I HAVE USING TECHNOLOGIES SUCH AS HTML, CSS, SASS, BOOTSTRAP, TAILWIND, JAVASCRIPT.
 
@@ -13,7 +13,7 @@ to have a good SEO.
 
 * Clean code.
 
-* I only used Flexbox along the structure of the web to have a good responsive desing.
+* I used Flexbox along the structure of the web to have a good responsive desing.
 
 * Responsive for Large, Medium and Small screen sizes.
 
