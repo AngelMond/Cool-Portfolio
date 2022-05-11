@@ -1,6 +1,6 @@
 # MY PORTFOLIO
 
-# THIS WEB IS ABOUT MY PORTFOLIO TO SHOW YOU THE PROJECTS I HAVE BEEN WORKING ON WHERE YOU'LL BE ABLE TO SEE THE EXPERIENCE I HAVE USING TECHNOLOGIES SUCH AS HTML, CSS, SASS, BOOTSTRAP, TAILWIND, JAVASCRIPT.
+# THIS WEB IS ABOUT MY PORTFOLIO TO SHOW YOU THE PROJECTS I HAVE BEEN WORKING ON. YOU'LL BE ABLE TO SEE THE EXPERIENCE I HAVE USING TECHNOLOGIES SUCH AS HTML, CSS, SASS, BOOTSTRAP, TAILWIND AND JAVASCRIPT.
 
 # ABOUT THIS PROYECT AND TECNOLOGIES
 
@@ -27,7 +27,7 @@ to have a good SEO.
 !["MY PROTFOLIO"](assets/screenshots/large3.jpg)
 
 
-# MEDIUM SCREENS 
+<!-- # MEDIUM SCREENS 
 
 !["MY PROTFOLIO"](assets/screenshots/medium1.jpg)
 !["MY PROTFOLIO"](assets/screenshots/medium2.jpg)
@@ -38,7 +38,7 @@ to have a good SEO.
 !["MY PROTFOLIO"](assets/screenshots/small1.jpg)
 !["MY PROTFOLIO"](assets/screenshots/small2.jpg)
 !["MY PROTFOLIO"](assets/screenshots/small3.jpg)
-!["MY PROTFOLIO"](assets/screenshots/small4.jpg)
+!["MY PROTFOLIO"](assets/screenshots/small4.jpg) -->
 
 # LINK TO THE WEB
 https://angelmond.github.io/Cool-Portfolio/
