@@ -41,4 +41,4 @@ to have a good SEO.
 !["MY PROTFOLIO"](assets/screenshots/small4.jpg) -->
 
 # LINK TO THE WEB
-https://angelmond.github.io/Cool-Portfolio/
+https://angelmond.github.io/Portfolio/
