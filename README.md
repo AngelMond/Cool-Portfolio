@@ -26,7 +26,7 @@ to have a good SEO.
 !["MY PROTFOLIO"](assets/screenshots/large1.jpg)
 !["MY PROTFOLIO"](assets/screenshots/large2.jpg)
 !["MY PROTFOLIO"](assets/screenshots/large3.jpg)
-!["MY PROTFOLIO"](assets/screenshots/large4.jpg)
+
 
 # MEDIUM SCREENS 
 
