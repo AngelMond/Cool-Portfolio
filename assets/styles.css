@@ -1,4 +1,5 @@
 
+
 /* MY VARIABLES*/
 :root{
     --color-header-background: #31343D ;
@@ -74,25 +75,15 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     margin: 2px;
     letter-spacing: 1px;
+    border-bottom: 3px solid var(--color-light-Blue-Green);
 }
 
-.underline{
-    background-color: var(--color-light-Blue-Green);
-    width: 102%;
-    height: 4px;
-    margin: 0 auto;
-}
-
-
-/* TRANSITIONS FOR NAVIGATION MENU*/
 
 #navigationBar li a:hover {
     color: white;
+    border-bottom: 3px solid white;
 }
 
-#navigationBar li a:hover .underline{
-    background-color: white;
-}
 
  /* END NAVIGATION MENU STYLES */
 
@@ -220,24 +211,21 @@ main{
     margin-top: 0px;
 }
 
-#portfolio{
-    background-image: url(../assets/images/portfolio.jpg);
-    padding: 60px 0px;
-    background-position: -1088px -7px;
-    background-repeat: no-repeat;
+#securePassword{
+    background-image: url(../assets/images/scurePassword.jpg);
 }
 
-#calculator{
-    background-image: url(../assets/images/calculadora.jpg);
+#weatherDashboard{
+    background-image: url(../assets/images/weather.jpg);
 }
 
-#civic{
-    background-image: url(./images/civic.jpg);
+
+#workScheluder{
+    background-image: url(./images/workScheduler.jpg);
 }
 
-#random{
-    background-image: url(./images/random.jpg);
-    background-position: -200px;
+#codeQuiz{
+    background-image: url(./images/codeQuiz.jpg);
 }
 
 /* DESCRIPTION FOR PROYECTS*/
@@ -361,7 +349,7 @@ animation: scoreSlide 300ms linear;
 
 /* INIMATION FOR RESUME IMAGE LINK*/
 
-@keyframes resume{
+/* @keyframes resume{
     0%{
         width: 80px ;
     }
@@ -372,7 +360,7 @@ animation: scoreSlide 300ms linear;
 
 #downloadResume a:hover img{
     animation: resume 500ms linear;
-}
+} */
 /******************************************************************************/
 
                                 /* CONTACT ME */
