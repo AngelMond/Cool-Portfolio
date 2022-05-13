@@ -3,6 +3,14 @@
 # THIS WEB IS ABOUT MY PORTFOLIO TO SHOW YOU THE PROJECTS I HAVE BEEN WORKING ON. YOU'LL BE ABLE TO SEE THE EXPERIENCE I HAVE USING TECHNOLOGIES SUCH AS HTML, CSS, SASS, BOOTSTRAP, TAILWIND AND JAVASCRIPT.
 
 # ABOUT THIS PROYECT AND TECNOLOGIES
+<!--HTML-->
+<div style="display=flex flex-row flex-wrap ">
+<img src="https://img.shields.io/badge/-HTML-e34f26?logo=html5&logoColor=fff">
+
+<!--CSS-->
+<img src="https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=fff">
+
+</div>
 
 * I created this web using vanilla CSS and HTML.
 
@@ -25,20 +33,6 @@ to have a good SEO.
 !["MY PROTFOLIO"](assets/screenshots/large1.jpg)
 !["MY PROTFOLIO"](assets/screenshots/large2.jpg)
 !["MY PROTFOLIO"](assets/screenshots/large3.jpg)
-
-
-<!-- # MEDIUM SCREENS 
-
-!["MY PROTFOLIO"](assets/screenshots/medium1.jpg)
-!["MY PROTFOLIO"](assets/screenshots/medium2.jpg)
-!["MY PROTFOLIO"](assets/screenshots/medium3.jpg)
-
-# SMALL SCREENS
-
-!["MY PROTFOLIO"](assets/screenshots/small1.jpg)
-!["MY PROTFOLIO"](assets/screenshots/small2.jpg)
-!["MY PROTFOLIO"](assets/screenshots/small3.jpg)
-!["MY PROTFOLIO"](assets/screenshots/small4.jpg) -->
 
 # LINK TO THE WEB
 https://angelmond.github.io/Portfolio/

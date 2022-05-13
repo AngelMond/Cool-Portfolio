@@ -302,16 +302,16 @@ main{
 
 /* ANIMATION FOR SKILLS SCORE*/
 
-@keyframes scoreSlide{
+/* @keyframes scoreSlide{
     0%{
         transform: translateX(800px);
     }
     100%{
         transform: translateX(0px);
     }
-}
+} */
 
-#html5:hover .score,
+/* #html5:hover .score,
 #css3:hover .score,
 #javaScript:hover .score{
 display: block;
@@ -324,7 +324,7 @@ cursor: pointer;
 #javaScript:focus .score{
 display: block;
 animation: scoreSlide 300ms linear;
-}
+} */
 
 /******************************************************************************/
 
