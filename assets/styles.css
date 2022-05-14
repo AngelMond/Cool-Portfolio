@@ -202,6 +202,11 @@ main{
     transition: all 200ms;
 }
 
+.allProyects:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
 /* IMAGES FOR PROYECTS*/
 /* CHANGE SIZE FOR THE FIRST PROYECT TO 100% FLEX-BASIS*/
 #cryptoCheck{
@@ -235,6 +240,8 @@ main{
     background-color: var(--color-light-Blue-Green);
     color: var(--color-header-background);
     border-radius: 20px 5px 40px 0px;
+    display: flex;
+    flex-flow: column wrap;
 }
 
 .descriptionProyect h5{
@@ -244,14 +251,34 @@ main{
 }
 .descriptionProyect span{
     font-size: 12px;
+    margin-top: 3px;
 }
+.repoWebContainer{
+    margin-top: 5px;
+}
+
+.deployedWeb,
+.repository{
+    padding: 1px;
+    margin-top: 2px;
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--color-blue-dark);
+}
+
+.deployedWeb:hover,
+.repository:hover{
+    text-decoration: underline;
+    color: #F5440C;
+}
+
+/* .descriptionProyect a{
+    font-size: 8px;
+} */
 
 /* TRANSITIONS FOR PROYECTS*/
 
-.allProyects:hover{
-    opacity: 1;
-    cursor: pointer;
-}
+
 
 /*******************************************************************************/
 
@@ -387,18 +414,20 @@ animation: scoreSlide 300ms linear;
     background-color: var(--color-light-Blue-Green);
     border-radius: 10px 0px 10px 0px;
     color: var(--color-header-background);
-    text-decoration: 3px underline var(--color-header-background);
+    text-decoration:none;
     padding: 5px 0px;
     box-shadow: 4px 4px 2px var(--color-header-background);
     transition: all 280ms;
 }
+
+
 
 /* TRANSITIONS FOR CONTACT LINKS*/
 
 #contactLinks a:hover{
     color: white;
     background-color: var(--color-header-background);
-    text-decoration: 3px underline var(--background-content);
+    text-decoration: none;
     box-shadow: 4px 4px 2px var(--color-blue-dark);
 }
 
