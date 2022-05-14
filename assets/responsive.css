@@ -445,6 +445,11 @@
     border-bottom: 3px solid var(--color-blue-dark);
     }
 
+    /*Project  Crypto check */
+    #cryptoCheck{
+        padding: 100px 0px;
+    }
+
     /* CONTACT */
     #contactLinks a {
     flex: 0 0 77%;
