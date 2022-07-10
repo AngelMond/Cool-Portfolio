@@ -388,19 +388,10 @@
     padding: 0px 7px;
     }
 
-    /* SKILL IMAGES*/
-    .skillImages img {
-    width: 80px;
+    /*TECHNOLOGIES*/
+    .technologiesList{
+        flex: 0 0 44%;
     }
-    /* TEXT NEXT IMAGES*/
-    .skillImages span {
-    font-size: 18px;
-    padding-left: 10px;
-    }
-    /* FONT SIZE FOR SCORE*/
-    .skillImages p {
-        font-size: 17px;
-      }
 
     /*RESUME*/
     #downloadResume {
@@ -444,6 +435,13 @@
     }
 }
 
+@media screen and (max-width: 429px){
+    /*TECHNOLOGIES*/
+    .technologiesList{
+        flex: 0 0 90%;
+        padding: 0px;
+    }
+}
 
 
 @media screen and (max-width:420px) {
