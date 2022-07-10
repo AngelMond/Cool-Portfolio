@@ -429,11 +429,23 @@ animation: scoreSlide 300ms linear;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding: 10px;
+}
+
+#downloadResume h6{
+    flex: 0 0 100%;
+    text-align: center;
+    margin-top: 7px;
+    color: var(--color-blue-dark);
 }
 
 #downloadResume img{
-    flex: 0 0 20%;
-    width: 155px;
+    flex: 0 0 100%;
+    width: 107px;
+}
+
+#downloadResume a:hover ~ #titleResume {
+    color: #F5440C;
 }
 
 /* INIMATION FOR RESUME IMAGE LINK*/
@@ -477,7 +489,7 @@ animation: scoreSlide 300ms linear;
     border-radius: 10px 0px 10px 0px;
     color: var(--color-header-background);
     text-decoration:none;
-    padding: 5px 0px;
+    padding: 7px;
     box-shadow: 4px 4px 2px var(--color-header-background);
     transition: all 280ms;
 }
