@@ -116,6 +116,7 @@ header{
  /******************************************************************************/
 
                         /* START MAIN SECTION STYLES*/
+                        /*MAIN CONTAINS ALL SECTIONS*/
 
 main{
     background-color: var(--background-content);
@@ -123,8 +124,9 @@ main{
     flex-flow: row wrap;
     justify-content: center;
     padding-top: 40px;
-    
 }
+
+/************** EACH SECTION IS A ROW AND EACH ROW CONTAINS TWO COLUMNS 1-SectionHeader and 2-Article *************/
 /* STYLES FOR ALL SECTIONS*/
 .sections{
     flex: 0 0 90%;
@@ -132,13 +134,6 @@ main{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-}
-
-
-/* STYLES FOR ARTICLES*/
-.article{
-    flex: 0 0 80%;
-    padding: 0px 45px;
 }
 
 .sectionHeader{
@@ -152,6 +147,12 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--color-blue-dark);
     text-align: right;
+}
+
+/* STYLES FOR ARTICLES*/
+.article{
+    flex: 0 0 80%;
+    padding: 0px 45px;
 }
 
 /*****************************************************************************/
