@@ -301,9 +301,10 @@
 
       /*ABOUT ME */
       #aboutMe p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 25px;
     letter-spacing: 0px;
+    text-align: start;
     }
 
     /*GREENDAY PROYECT */
