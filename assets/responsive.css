@@ -198,6 +198,7 @@
     /* FLEX-BASIS 100% FOR NAVIGATION BAR*/
     #navigationBar {
     flex: 0 0 100%;
+    padding-bottom: 10px;
     }
 
     /* FONT SIZE FOR LINKS NAVIGATION MENU*/
