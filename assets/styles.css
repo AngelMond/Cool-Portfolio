@@ -148,7 +148,7 @@ main{
 }
 
 .sectionHeader h3{
-    font-size: 40px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: var(--color-blue-dark);
     text-align: right;

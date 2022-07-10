@@ -55,7 +55,7 @@
 
     /* H3 SECTIONS*/
     .sectionHeader h3 {
-    font-size: 30px;
+    font-size: 25px;
     }
     /* CONTACT*/
     #contactLinks a {
@@ -77,6 +77,11 @@
     }
     #navigationBar a {
     font-size: 18px;
+    }
+
+    /* H3 SECTIONS*/
+    .sectionHeader h3 {
+        font-size: 22px;
     }
 
     /* WIDTH SKILLS IMAGES*/
@@ -134,7 +139,7 @@
 
     /* H3 FOR SECTIONS */
     .sectionHeader h3 {
-    font-size: 22px;
+    font-size: 18px;
     }
 
     .sectionHeader {
@@ -215,6 +220,11 @@
     opacity: 1;
     }
 
+    /* H3 SECTIONS*/
+    .sectionHeader h3 {
+        font-size: 16px;
+    }
+
     /* CONTACT */
     #contactLinks a {
     text-decoration: none;
@@ -259,6 +269,11 @@
 
     .skillImages p {
     font-size: 16px;
+    }
+
+    /* H3 SECTIONS*/
+    .sectionHeader h3 {
+        font-size: 14px;
     }
 
     /* RESUME*/
@@ -322,6 +337,11 @@
     font-size: 14px;
     padding-left: 10px;
     }
+
+    /* H3 SECTIONS*/
+    .sectionHeader h3 {
+        font-size: 13px;
+        }
 
     /*RESUME*/
     #downloadResume img {
