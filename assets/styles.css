@@ -296,13 +296,20 @@ main{
 #mySkills{
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: start;
 }
+
+#technologiesList li{
+    margin: 10px;
+    font-size: 20px;
+    color: var(--color-blue-dark-h2);
+}
+
 #imagesContainer{
     flex: 0 0 100%;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: start;
     padding: 10px 0px;
 }
 
