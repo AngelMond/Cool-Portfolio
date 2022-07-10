@@ -1,6 +1,6 @@
 # MY PORTFOLIO
 
-# This project is about my portfolio where you'll be able to see the experience I already have working on several project and using technologies such as JavaScript, HTML, CSS, SASS, Bootstrap, Express, MySQL and Sequelize.
+This project is about my portfolio where you'll be able to see the experience I already have working on several project and using technologies such as JavaScript, HTML, CSS, SASS, Bootstrap, Express, MySQL and Sequelize.
 
 # Technologies used in my portfolio
 <!--HTML-->
