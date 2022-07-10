@@ -5,6 +5,7 @@
     --color-header-background: #31343D ;
     --color-light-Blue-Green: #93CDCE;
     --color-blue-dark: #445775;
+    --color-blue-dark-h2: #283140;
     --background-content: #EDEDF5;
 }
 
@@ -160,6 +161,12 @@ main{
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+}
+
+#description-photo h2{
+    text-align: center;
+    font-size: 30px;
+    color: var(--color-blue-dark-h2);
 }
 
 #myPhoto{
