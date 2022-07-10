@@ -1,18 +1,17 @@
 # MY PORTFOLIO
 
-# THIS WEB IS ABOUT MY PORTFOLIO TO SHOW YOU THE PROJECTS I HAVE BEEN WORKING ON. YOU'LL BE ABLE TO SEE THE EXPERIENCE I HAVE USING TECHNOLOGIES SUCH AS HTML, CSS, SASS, BOOTSTRAP, TAILWIND AND JAVASCRIPT.
+# This project is about my portfolio where you'll be able to see the experience I already have working on several project and using technologies such as JavaScript, HTML, CSS, SASS, Bootstrap, Express, MySQL and Sequelize.
 
-# ABOUT THIS PROYECT AND TECNOLOGIES
+# Technologies used in my portfolio
 <!--HTML-->
 <div style="display=flex flex-row flex-wrap ">
 <img src="https://img.shields.io/badge/-HTML-e34f26?logo=html5&logoColor=fff">
 
 <!--CSS-->
 <img src="https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=fff">
-
 </div>
 
-* I created this web using vanilla CSS and HTML.
+* I created this web using HTML and vanilla CSS.
 
 * I did my best using the correct semantics for the HTML
 to have a good SEO.
@@ -26,9 +25,8 @@ to have a good SEO.
 * Responsive for Large, Medium and Small screen sizes.
 
 
-# SCREEN SHOTS 
+# Screen Shots
 
-# LARGE SCREENS
 
 !["MY PROTFOLIO"](assets/screenshots/large1.jpg)
 !["MY PROTFOLIO"](assets/screenshots/large2.jpg)
