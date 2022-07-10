@@ -300,9 +300,22 @@ main{
 }
 
 #technologiesList li{
-    margin: 10px;
+    padding: 10px;
+    margin-top: 15px;
     font-size: 20px;
     color: var(--color-blue-dark-h2);
+    background-color: var(--color-light-Blue-Green);
+    text-align: center;
+    border-radius: 20px 0px 20px 0px;
+    box-shadow: 4px 4px 2px var(--color-header-background);
+    transition: 380ms;
+}
+
+#technologiesList li:hover{
+    color: white;
+    background-color: var(--color-header-background);
+    text-decoration: none;
+    box-shadow: 4px 4px 2px var(--color-blue-dark);
 }
 
 #imagesContainer{
