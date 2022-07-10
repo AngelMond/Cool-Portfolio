@@ -170,6 +170,17 @@ main{
     margin-bottom: 20px;
 }
 
+.aboutMeLinks{
+    color: var(--color-blue-dark);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.aboutMeLinks:hover{
+    color: #F5440C;
+    text-decoration: underline;
+}
+
 #myPhoto{
     border-radius: 100px;
     flex: 0 0 20%;
