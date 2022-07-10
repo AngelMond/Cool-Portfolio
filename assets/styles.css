@@ -241,9 +241,11 @@ main{
 
 /* IMAGES FOR PROYECTS*/
 /* CHANGE SIZE FOR THE FIRST PROYECT TO 100% FLEX-BASIS*/
+
+/*Updated to Developers-Fun-Blog*/
 #cryptoCheck{
     flex: 0 0 100%;
-    background-image: url(../assets/images/cryptoCheck.jpg);
+    background-image: url(../assets/images/devsFunBlog.jpg);
     padding: 250px 0px;
     margin-top: 0px;
 }
@@ -257,12 +259,13 @@ main{
 }
 
 
+/*Updated to nurseXpress*/
 #workScheluder{
-    background-image: url(./images/workScheduler.jpg);
+    background-image: url(./images/nurseXpress.jpg);
 }
 
 #codeQuiz{
-    background-image: url(./images/codeQuiz.jpg);
+    background-image: url(./images/cryptoCheck.jpg);
 }
 
 /* DESCRIPTION FOR PROYECTS*/
