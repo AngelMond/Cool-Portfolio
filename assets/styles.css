@@ -76,13 +76,26 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     margin: 2px;
     letter-spacing: 1px;
-    border-bottom: 3px solid var(--color-light-Blue-Green);
 }
-
 
 #navigationBar li a:hover {
     color: white;
-    border-bottom: 3px solid white;
+    transition: color 900ms;
+}
+
+/*Pseudo element created for li tags to display underline*/
+.navLinks::after{
+    content:""; 
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #EDEDF5;
+    margin-top: 5px;
+    transition: all 500ms;
+}
+
+.navLinks:hover::after{
+    width: 100%;
 }
 
 
