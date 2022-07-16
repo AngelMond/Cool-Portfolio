@@ -206,6 +206,14 @@
     font-size: 20px;
     }
 
+    #navigationBar.active{
+        height: 5rem;
+        width: 100% ;
+        left: 0px;
+        right: 0px;
+        border-radius: 0px;
+    }
+
     /* BANNER*/
     #banner {
     height: 160px;
@@ -405,7 +413,7 @@
     }
 }
 
-
+/*** AGREGAR EN ESTE MEDIA QUERY LOS ESTILOS PARA LA NAVBAR Y EL BOTON PARA MOSTRAR Y ESCONDER LA NAVBAR***/
 
 @media screen and (max-width:517px){
 
@@ -427,6 +435,16 @@
 
     #navigationBar a {
     font-size: 24px;
+    }
+
+    /* NUEVOS ESTILOS/ HAY QUE CAMBIARLOS PARA AGREAGAR EL BOTON DE LA NAVBAR*/
+    #navigationBar.active{
+        display: none;
+        height: 0;
+        width: 100% ;
+        left: 0px;
+        right: 0px;
+        border-radius: 0px;
     }
 
     .underline {
