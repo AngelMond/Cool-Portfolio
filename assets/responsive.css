@@ -207,9 +207,8 @@
     }
 
     #navigationBar.active{
-        height: 5rem;
-        width: 100% ;
-        left: 0px;
+        height: 3rem;
+        width: 100% ; 
         right: 0px;
         border-radius: 0px;
     }
